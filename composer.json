@@ -1,0 +1,21 @@
+{
+    "name": "fdjer/test_unitaire",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+      "ext-http": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fdjer\\TestUnitaire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Farid-Efrei",
+            "email": "128361230+Farid-Efrei@users.noreply.github.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}
